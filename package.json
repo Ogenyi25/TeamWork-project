@@ -1,0 +1,49 @@
+{
+  "name": "teamwork-project",
+  "version": "1.0.0",
+  "description": "A social network API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --exec babel-node backend/server.js",
+    "start:dev": "nodemon --exec babel-node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ogenyi25/TeamWork-project.git"
+  },
+  "keywords": [
+    "api",
+    "andela",
+    "teamwork"
+  ],
+  "author": "Otor John",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ogenyi25/TeamWork-project/issues"
+  },
+  "homepage": "https://github.com/Ogenyi25/TeamWork-project#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "morgan": "^1.9.1"
+  }
+}
